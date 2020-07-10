@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>条件分岐 - switch文（1）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <script>
+        const rank = 3;
+
+        switch (rank) {
+            case 1:
+            console.log ("日本！金メダルです！");
+            break;
+
+            case 2:
+            colsole.log ("日本、銀メダルです！");
+            break;
+
+            case 3:
+            console.log ("日本、銅メダルに終わりました。");
+            break;
+        }
+
+        const place = "地底";
+
+        switch (place) {
+            case "天国":
+            console.log ("ここは天国です。前世では良い人でしたね。");
+            break;
+
+            case "現世":
+            console.log ("ここは現世です。まだ生きてますよ。");
+            break;
+
+            case "地獄":
+            console.log ("ここは地獄じゃ。前世では悪人だったようだな。");
+            break;
+
+            case "宇宙":
+            console.log ("ここは宇宙です。酸素ないですよ。");
+            break;
+
+            case "海底":
+            console.log ("ここは海底です。光は届きません。");
+            break;
+
+            case "地底":
+            console.log ("ここは地底です。鉱物の宝庫です。");
+            break;
+        }
+    </script>
+    
+</body>
+</html>
