@@ -24,11 +24,6 @@ ul, li {
 /**
 
 
-header .container {
-	display: flex;
-	flex-wrap: wrap;
-	border-bottom: 1px solid #E2E7EA;
-}
 .header-left {
 	width: 40%;
 	text-align: left;
