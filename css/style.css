@@ -32,17 +32,18 @@ ul, li {
 .SlickList {
 	display: flex;
 }
+.ProductSummary {
+	width: 15%;
+}
+.ProductSummary img {
+	width: 100%;
+}
 
 /**
 
 
 
 
-.header-right ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-}
 .header-right ul li {
 	font-size: 16px;
 	padding: 0 8px;
