@@ -31,9 +31,13 @@ ul, li {
 }
 .SlickList {
 	display: flex;
+	margin-left: -16px;
+	overflow-x: auto;
 }
 .ProductSummary {
+	flex: 0 0 auto;
 	width: 15%;
+	padding-left: 16px;
 }
 .ProductSummary img {
 	width: 100%;
@@ -44,10 +48,6 @@ ul, li {
 
 
 
-.header-right ul li {
-	font-size: 16px;
-	padding: 0 8px;
-}
 .header-right ul li.btn a {
 	color: #297CBB;
 	border: 1px solid #297CBB;
