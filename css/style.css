@@ -26,16 +26,18 @@ ul, li {
 	margin: 0 auto;
 	padding: 0 24px;
 }
+.ProductListContent {
+	margin: 60px 0;
+}
+.SlickList {
+	display: flex;
+}
 
 /**
 
 
 
-.header-right {
-	text-align: right;
-	width: 48%;
-	line-height: 130px;
-}
+
 .header-right ul {
 	display: flex;
 	flex-wrap: wrap;
