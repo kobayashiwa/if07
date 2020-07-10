@@ -5,7 +5,7 @@
 }
 body {
 	margin: 0;
-	font-family: 'Mukta', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	color: #2C3543;
 }
 a {
@@ -20,15 +20,17 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+.container {
+	width: 100%;
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
 
 /**
 
 
-.header-logo {
-	width: 12%;
-	justify-content: center;
-	padding-top: 30px;
-}
+
 .header-right {
 	text-align: right;
 	width: 48%;
