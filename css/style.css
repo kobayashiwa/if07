@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	line-height: 1;
 }
 body {
 	margin: 0;
@@ -47,18 +48,21 @@ h3 {
 .ProductSummary img {
 	width: 100%;
 }
+.book-title {
+	color: #5F5F5F;
+	padding: 8px 0;
+	width: 90%;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.2;
+}
 
 /**
 
 
 
 
-.header-right ul li.btn a {
-	color: #297CBB;
-	border: 1px solid #297CBB;
-	padding: 6px 24px;
-	border-radius: 24px;
-}
+
 .mid-header .container {
 	border-bottom: 1px solid #E2E7EA;
 }
